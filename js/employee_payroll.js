@@ -82,31 +82,3 @@ class EmployeePayroll
             + ", note=" + this.note;
     }
 }
-
-
-
-
-const save =() =>
-{
-    try {
-        let employeePayrollData = createEmployeePay
-
-    } catch (error) {
-        return;
-    }
-}
-
-const resetform =() =>
-{
-
-}
-
-const createEmployeePayroll = () =>
-{
-    let employeePayroll = new EmployeePayroll();
-    try {
-        employeePayroll.name = getInputValueById('#name')
-    } catch (error) {
-        
-    }
-}
